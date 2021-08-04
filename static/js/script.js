@@ -19,5 +19,13 @@ function reset() {
     document.getElementById('ageInDays').remove();  //remove the id ageInDays
 }
 
+// Challenge 2: Image Generator
+function generateImage() {
+    var image = document.createElement('img'); //create an image element
+    var div = document.getElementById('flex-image-gen');
+    image.src = "http://thecatapi.com/api/images/get?format=src&type=gif&size=small";
+    div.appendChild(image);
+}
 
-//2:00:00-
+
+//2:42:00-
