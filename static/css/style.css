@@ -1,12 +1,12 @@
 /*1*/
-.container-1, .container-2 {  /*give a same setting to containers*/
+.container-1, .container-2, .container-3 {  /*give a same setting to containers*/
     border: 1px solid black;
     width: 75%;
     margin: 0 auto;  /*everything is centeralised*/
     text-align: center;
 }
 
-.flex-box-container-1 {
+.flex-box-container-1, .flex-box-rps {
     display: flex;
     border: 1px solid black;
     padding: 10px;
@@ -37,4 +37,9 @@
     /*border: 1px solid green;*/
     margin: 10px;
     box-shadow: 0px 10px 50px rgba(0, 0,0, 0.7);
+}
+
+/*3*/
+.flex-box-rps img:hover {
+    box-shadow: 0px 10px 50px rgba(30, 230, 30, 1);
 }
